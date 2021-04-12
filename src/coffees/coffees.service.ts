@@ -12,7 +12,7 @@ export class CoffeesService {
     },
   ];
 
-  findAll(id: string) {
+  findAll() {
     return this.coffees;
   }
 
