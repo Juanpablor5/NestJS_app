@@ -10,6 +10,7 @@ import { CoffeeRatingService } from './coffee-rating.service';
       host: 'localhost',
       password: 'password',
     }),
+    CoffeesModule,
   ],
   providers: [CoffeeRatingService],
 })
