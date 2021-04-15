@@ -23,9 +23,7 @@ import appConfig from './config/app.config';
         synchronize: true,
       }),
     }),
-    ConfigModule.forRoot({
-      load: [appConfig],
-    }),
+    ConfigModule.forRoot(),
     CoffeesModule,
     CoffeeRatingModule,
     DatabaseModule,
